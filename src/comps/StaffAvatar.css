@@ -1,0 +1,7 @@
+/*src/comps/StaffAvatar.css*/
+.staff-avatar{
+    margin-left: 2vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 2vw;
+}

@@ -1,0 +1,113 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .ant-input-password input{
+    border-color: inherit !important;
+  }
+  .psdInput::-webkit-input-placeholder{
+    color: #333 !important;
+    font-weight: 500;
+  }
+  /* *::-webkit-scrollbar {
+    display: none;}
+  div::-webkit-scrollbar {
+    display: none;}
+  body::-webkit-scrollbar {
+    display: none;}
+  html::-webkit-scrollbar {
+    display: none;} */
+  .block{
+    background-color: #f8f8f8;
+  }
+  .start {
+    justify-content: flex-start;
+  }
+  .es{
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .align {
+    align-items: center;
+    display: flex;
+  }
+  .shadow{
+    background:#fff;box-shadow: 0 3px 14px 3px rgba(40, 120, 255, 0.08), 0 8px 10px 1px rgba(0, 0, 0, 0.05);
+  }
+  .flex {
+    display:-webkit-flex;
+    display: flex;
+  }
+  
+  .around, .between, .column, .end, .row-center, .wrap,.strech,.align,.wrap,.vertical-center,.start,.center {
+    display:-webkit-flex;
+    display: flex;
+  }
+  
+  .strech {
+    align-items: stretch;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .row-center {
+    justify-content: center;
+  }
+  
+  .around {
+    justify-content: space-around;
+  }
+  
+  .between {
+    justify-content: space-between;
+  }
+  
+  .end {
+    justify-content: flex-end;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  .hf{
+    height: 100%;
+  }
+  .hh{
+    height: 50%;
+  }
+  .wf{
+    width: 100%;
+  }
+  .wh{
+    width: 50%;
+  }
+  .pab {
+    position: absolute;
+  }
+  
+  .pre {
+    position: relative;
+  }
+  
+  .fix {
+    position: fixed;
+  }
+  
+  .radius {
+    border-radius: 50%;
+  }
+  .w1{width:1vw}.w2{width:2vw}.w3{width:3vw}.w4{width:4vw}.w5{width:5vw}.w6{width:6vw}.w7{width:7vw}.w8{width:8vw}.w9{width:9vw}.w10{width:10vw}.w11{width:11vw}.w12{width:12vw}.w13{width:13vw}.w14{width:14vw}.w15{width:15vw}.w16{width:16vw}.w17{width:17vw}.w18{width:18vw}.w19{width:19vw}.w20{width:20vw}.w21{width:21vw}.w22{width:22vw}.w23{width:23vw}.w24{width:24vw}.w25{width:25vw}.w26{width:26vw}.w27{width:27vw}.w28{width:28vw}.w29{width:29vw}.w30{width:30vw}.w31{width:31vw}.w32{width:32vw}.w33{width:33vw}.w34{width:34vw}.w35{width:35vw}.w36{width:36vw}.w37{width:37vw}.w38{width:38vw}.w39{width:39vw}.w40{width:40vw}.w41{width:41vw}.w42{width:42vw}.w43{width:43vw}.w44{width:44vw}.w45{width:45vw}.w46{width:46vw}.w47{width:47vw}.w48{width:48vw}.w49{width:49vw}.w50{width:50vw}.w51{width:51vw}.w52{width:52vw}.w53{width:53vw}.w54{width:54vw}.w55{width:55vw}.w56{width:56vw}.w57{width:57vw}.w58{width:58vw}.w59{width:59vw}.w60{width:60vw}.w61{width:61vw}.w62{width:62vw}.w63{width:63vw}.w64{width:64vw}.w65{width:65vw}.w66{width:66vw}.w67{width:67vw}.w68{width:68vw}.w69{width:69vw}.w70{width:70vw}.w71{width:71vw}.w72{width:72vw}.w73{width:73vw}.w74{width:74vw}.w75{width:75vw}.w76{width:76vw}.w77{width:77vw}.w78{width:78vw}.w79{width:79vw}.w80{width:80vw}.w81{width:81vw}.w82{width:82vw}.w83{width:83vw}.w84{width:84vw}.w85{width:85vw}.w86{width:86vw}.w87{width:87vw}.w88{width:88vw}.w89{width:89vw}.w90{width:90vw}.w91{width:91vw}.w92{width:92vw}.w93{width:93vw}.w94{width:94vw}.w95{width:95vw}.w96{width:96vw}.w97{width:97vw}.w98{width:98vw}.w99{width:99vw}.w100{width:100vw}

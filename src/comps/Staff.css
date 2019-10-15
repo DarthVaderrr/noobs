@@ -1,0 +1,43 @@
+/*src/comps/Staff.css*/
+.staff-container{
+    border-bottom: 1px solid #f8f8f8;
+    padding-bottom: 2vw;
+}
+.staff{
+    padding: 2vw;
+}
+
+.staff-img{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 2vw;
+}
+.staff-desc{
+    margin-left: 1em;
+    flex: 1;
+    border-radius: 2vw;
+    padding: 1em;
+    color: #666;
+    font-size: 0.9em;
+    font-weight: 500;
+    background: rgba(102, 102, 51,0.2);
+}
+.staff-info{
+    padding:0 2vw;
+    padding-top: 0;
+}
+.staff-skill{
+    flex: 1;
+    font-size: 0.8em;
+    color: #666;
+    background: rgba(203, 203, 153,0.2);
+    padding: 2vw;
+    line-height: 1.2;
+    border-radius: 2vw;
+}
+.staff-name{
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+}

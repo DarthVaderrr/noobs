@@ -1,0 +1,39 @@
+@keyframes slideIn {
+  0% {
+    position: absolute;
+    left: 100vw;
+  }
+  99% {
+    position: absolute;
+    left: 0;
+  }
+  100% {
+    position: static;
+  }
+}
+.indexMsgList,
+.friendsList,
+.eventList,
+.scrollFixBottom,
+.makeEvent {
+  animation-name: slideIn;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.fade-in-msg {
+  width: fit-content;
+  overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}

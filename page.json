@@ -1,0 +1,11 @@
+{
+    "components":[
+        "src/comps/Staffs",
+        "src/comps/Heros",
+        "src/comps/RaceEffets",
+        "src/comps/Effet",
+        "src/comps/Hero",
+        "src/comps/Staff",
+        "src/comps/StaffAvatar"
+    ]
+}
