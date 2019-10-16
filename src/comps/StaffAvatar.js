@@ -6,6 +6,6 @@ export default class StaffAvatar extends React.Component{
         this.state={}
     }
     render(){
-        return (<img className='staff-avatar' src="/staff/无尽.png" alt={this.props.id}/>)
+        return (<img className='staff-avatar' src={this.props.img} alt={this.props.id}/>)
     }
 }

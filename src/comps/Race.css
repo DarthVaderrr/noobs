@@ -1,0 +1,10 @@
+/*src/comps/Race.css*/
+.race-item{
+    width: 8vw;
+    height: 8vw;
+    background-color: #336699;
+    border-radius: 1vw;
+    margin: 1vw;
+}
+.race-icon{
+}

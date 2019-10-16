@@ -1,6 +1,6 @@
 import React from 'react'
 import './Effet.css'
-import Hero from './Hero'
+import HeroAvatar from './HeroAvatar'
 export default class Effet extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +8,7 @@ export default class Effet extends React.Component {
     }
     render() {
         const data = this.props.data;
+        const heros=global.configData.heros;
         return (<div>
             <h2 className='race-name align'>
                 {data.name}
@@ -15,7 +16,7 @@ export default class Effet extends React.Component {
             </h2>
             <div className='ctx'>
                 <div className='hero-container wh'>
-                    {data.heros.map(i => <Hero id={i} key={i}/>)}
+                    {data.heros.map(i => <HeroAvatar className='hero-item' img={heros[i].img} id={i} key={i}/>)}
                 </div>
                 <div className='desc-container wh'>
                     效果: {data.effet}

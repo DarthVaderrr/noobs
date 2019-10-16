@@ -1,18 +1,17 @@
 /*src/comps/Hero.css*/
-.hero{
-    width: 12vw;
-    height: 12vw;
-    border-radius: 50%;
-    padding: 1px;
-    border: 1px solid #99CCCC;
-    margin-left: 0.5em;
-    margin-top: 0.5em;
+.hero-container{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
 }
-.avatar{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.hero-info{
+    margin-left:1em;
+}
+.hero-name{
+    font-weight: 500;
+}
+.hero-price,.hero-pro,.hero-race{
+    margin-left:1em;
+    font-size: 0.8em;
+    color: #666;
 }
