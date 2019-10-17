@@ -15,7 +15,9 @@ export default class Heros extends React.Component {
     render() {
     const race = global.configData.races;
     const pros = global.configData.pros;
-        return (<div className='container'>
+    const props=this.props;
+    const name='hero'
+        return (<div className='route-container column' style={{display:props.currentTab===name?'flex':'none'}}>
             <div className='hero-list'>
                 {this.state.heroList.map(i=><Hero key={i.id} id={i.id} data={i}/>)}
             </div>
@@ -39,7 +41,6 @@ export default class Heros extends React.Component {
         let filters=this.state.filters;
         if(filters.has(name)) filters.delete(name)
         else filters.add(name);//filters是一个set
-        console.log(filters)
         const list=this.initList;
         //增加或移除职业筛选
         this.setState({

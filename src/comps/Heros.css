@@ -4,13 +4,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 .hero-list{
     flex: 1;
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
 }

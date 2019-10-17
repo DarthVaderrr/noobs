@@ -8,11 +8,17 @@ export default class Staff extends React.Component {
     }
     render() {
         const data = this.props.data;
+
         return (<div className='staff-container wf'>
 
             <div className='staff-info wf align'>
                 <div className='staff-need'>
-                    {data.need ? data.need.map((i, index) => <StaffAvatar key={index} img={i} />) : <StaffAvatar img={data.img} />}
+                    <div className='staff-imgs column align'>
+                        <img src={data.img} className='main-img' alt="" />
+                        <div>
+                            {data.need.map((i, index) => <StaffAvatar key={index} id={i} />)}
+                        </div>
+                    </div>
                 </div>
                 <div className='staff-skill column'>
                     <span className='staff-name'>{data.name}</span>

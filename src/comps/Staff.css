@@ -2,16 +2,18 @@
 .staff-container{
     border-bottom: 1px solid #f8f8f8;
     padding-bottom: 2vw;
+    margin-top: 1vw;
 }
 .staff{
     padding: 2vw;
 }
-
-.staff-img{
-    width: 12vw;
-    height: 12vw;
-    border-radius: 2vw;
+.main-img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
 }
+
 .staff-desc{
     margin-left: 1em;
     flex: 1;

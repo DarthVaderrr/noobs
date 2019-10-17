@@ -8,6 +8,9 @@
         "src/comps/Hero",
         "src/comps/Staff",
         "src/comps/StaffAvatar",
-        "src/comps/Race"
+        "src/comps/Race",
+        "src/comps/Index",
+        "src/comps/StaffComp",
+        "src/comps/TabBar"
     ]
 }

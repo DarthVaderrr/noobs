@@ -7,9 +7,11 @@ export default class RaceEffets extends React.Component{
         this.state={ }
     }
     render(){
-  
-        return (<div>
-            {global.configData.races.concat(global.configData.pros).map(i=><Effet data={i} key={i.id}/>)}
+        const icons=global.configData.icons;
+        const props=this.props
+        const name='race'
+        return (<div className='column route-container' style={{display:props.currentTab===name?'flex':'none'}}>
+            {global.configData.races.concat(global.configData.pros).map(i=><Effet icon={icons[i.id].default} data={i} key={i.id}/>)}
             </div>)
     }
 }

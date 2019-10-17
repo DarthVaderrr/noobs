@@ -1,6 +1,5 @@
 import React from 'react'
 import './Effet.css'
-import HeroAvatar from './HeroAvatar'
 export default class Effet extends React.Component {
     constructor(props) {
         super(props);
@@ -8,17 +7,15 @@ export default class Effet extends React.Component {
     }
     render() {
         const data = this.props.data;
-        const heros=global.configData.heros;
         return (<div>
             <h2 className='race-name align'>
+                <div className='race-item center'>
+                    <img src={this.props.icon} alt="" />
+                </div>
                 {data.name}
-                <img src="/img/云顶之弈_剑士.png" className='icon' alt="" />
             </h2>
             <div className='ctx'>
-                <div className='hero-container wh'>
-                    {data.heros.map(i => <HeroAvatar className='hero-item' img={heros[i].img} id={i} key={i}/>)}
-                </div>
-                <div className='desc-container wh'>
+                <div className='desc-container wf'>
                     效果: {data.effet}
                     <br /><br />
                     卡片数量: {data.number}
